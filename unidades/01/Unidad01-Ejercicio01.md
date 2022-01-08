@@ -35,4 +35,4 @@ git commit Readme.md -m "Un gran mensaje de descripción"
 git clone git@github.com:[usuario]/[repositorio]
 ```
 
-8. Realizar un cambio al archivo **Readme.md** y agréguese como colaborador del proyecto del compañero. Revise los puntos 4 y 5 de este ejercicio para referencia.
+8. Realizar un cambio al archivo **Readme.md** y agréguese como colaborador en la descripción del proyecto del compañero en el archivo. Revise los puntos 4 y 5 de este ejercicio para referencia.
