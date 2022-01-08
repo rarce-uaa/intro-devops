@@ -65,6 +65,10 @@ Los equipos que se formen en este curso, y el método de colaboración no es una
 
 [Este interesante artículo](https://buddy.works/blog/5-types-of-git-workflows) nos dará algo de lúz a las formas básicas y no tan básicas de los flujos de trabajo con código fuente. Uno de los más utilizados, considerado el más amigable es el explicado por Vincent Driessen en su artículo [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/). De ninguna manera es un "estándar" pero es el que he visto más usado en proyectos colaborativos de gran envergadura.
 
+## Ejercicio 2
+
+Utilizando el criterio de Flujo de trabajo, realizar las actividades del [Ejercicio 2](Unidad01-Ejercicio02.md)
+
 ## Referencias
 
 ### Presentaciones
