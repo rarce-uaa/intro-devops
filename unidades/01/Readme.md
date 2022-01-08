@@ -19,6 +19,12 @@ Para el propósito de esta clase usaremos [GitHub](https://github.com), pero si�
 
 Uno de los fundamentos del uso de sistemas distribuidos y estándares de la industria es que cada uno puede gestionarlo desde donde le sea más cómodo.
 
+## Referencias
+
+### Anotaciones
+
+* [Anotaciones varias](Anotaciones.md)
+
 
 
 
