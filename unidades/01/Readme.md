@@ -53,6 +53,10 @@ En la gestión de contenido, específicamente el código fuente, se consideran a
 
 Una buena practica, y de suma importancia es la nomenclatura clara y consistente en los nombres de todo lo anterior y de los mensajes en cada unos de los **commits** que se realicen en el repositorio.
 
+## Ejericio 1
+
+Realizar el [Ejericicio 1](Unidad01-Ejercicio01.md), necesitará realizar el trabajo con un compañero del curso.
+
 ## Flujo de trabajo (workflow)
 
 Cada organización, grupo de trabjo y persona, tiene su flujo de trabajo, es decir la forma (procesos) de hacer las cosas (obtener resultados). Uno de los problemas recurrentes en los equipos de trabajos es que se enfocan en los procesos y no en las personas, y es importante saber que uno no existe sin el otro.
@@ -60,6 +64,10 @@ Cada organización, grupo de trabjo y persona, tiene su flujo de trabajo, es dec
 Los equipos que se formen en este curso, y el método de colaboración no es una excepción. El curso en sí proveerá de los objetivos a alcanzar y algunas herramientas para optimizar el flujo de trabajo, pero cada equipo finalmente encontrará su forma de trabajo colaborativo, su proceso, su "workflow".
 
 [Este interesante artículo](https://buddy.works/blog/5-types-of-git-workflows) nos dará algo de lúz a las formas básicas y no tan básicas de los flujos de trabajo con código fuente. Uno de los más utilizados, considerado el más amigable es el explicado por Vincent Driessen en su artículo [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/). De ninguna manera es un "estándar" pero es el que he visto más usado en proyectos colaborativos de gran envergadura.
+
+## Ejercicio 2
+
+Utilizando el criterio de Flujo de trabajo, realizar las actividades del [Ejercicio 2](Unidad01-Ejercicio02.md)
 
 ## Referencias
 
