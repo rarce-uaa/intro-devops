@@ -2,5 +2,5 @@
 
 ## Unidad 01
 
-* [Colaboración con Git](./unidad/01)
+* [Colaboración con Git](./unidades/01)
 
