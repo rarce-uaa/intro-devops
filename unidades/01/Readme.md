@@ -53,6 +53,10 @@ En la gestión de contenido, específicamente el código fuente, se consideran a
 
 Una buena practica, y de suma importancia es la nomenclatura clara y consistente en los nombres de todo lo anterior y de los mensajes en cada unos de los **commits** que se realicen en el repositorio.
 
+## Ejericio 1
+
+Realizar el [Ejericicio 1](Unidad01-Ejercicio01.md), necesitará realizar el trabajo con un compañero del curso.
+
 ## Flujo de trabajo (workflow)
 
 Cada organización, grupo de trabjo y persona, tiene su flujo de trabajo, es decir la forma (procesos) de hacer las cosas (obtener resultados). Uno de los problemas recurrentes en los equipos de trabajos es que se enfocan en los procesos y no en las personas, y es importante saber que uno no existe sin el otro.
