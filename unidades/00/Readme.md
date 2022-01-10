@@ -13,7 +13,7 @@
 
 ## Ciclo de vida del software
 
-El Ciclo de vida de desarrollo de sistemas
+El Ciclo de vida de desarrollo de sistemas comprende procesos, análisis y actividades que tienen que 
 
 ![Ciclo de vida](https://www.viewnext.com//wp-content/uploads/2018/06/7fases_SDLC_infografia.jpg)
 
@@ -46,7 +46,7 @@ Esto lo ahondaremos en la [Unidad 1](../01/)
 
 ## Referencias
 
-### Artículos
+### Enlaces
 
 * [Ciclo de vida de sistemas](https://www.viewnext.com/el-ciclo-sdlc-en-7-fases)
 * [Resumen de que es y para que sirve DevOps](https://www.programaenlinea.net/que-es-y-para-que-sirve-devops)
