@@ -67,6 +67,6 @@ Utilizando el criterio de Flujo de trabajo, realizar las actividades del [Ejerci
 
 * [Anotaciones de comandos](Anotaciones.md)
 
-## Otros
+### Otros
 
 * [Curso Cloud Native Foundamentals](https://www.udacity.com/course/cloud-native-fundamentals--ud064)
