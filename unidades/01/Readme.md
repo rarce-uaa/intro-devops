@@ -1,8 +1,7 @@
 # Unidad 1
 
 ## Objetivos
-* Definir DevOps
-* Indentificar las ventajas de las prácticas de DevOps
+
 * Crear un repositorio en un sitio de hospedaje de código.
 * Agregar un colaborador a un repositorio de código.
 * Agregar, editar, eliminar cambios de manera colaborativa en un repositorio de código fuente.
@@ -21,17 +20,6 @@ Para el propósito de esta clase usaremos [GitHub](https://github.com), pero si�
 
 Uno de los fundamentos del uso de sistemas distribuidos y estándares de la industria es que cada uno puede gestionarlo desde donde le sea más cómodo.
 
-## Que es DevOps?
-
-DevOps es un conjunto de prácticas del proceso de construcción de software donde convergen el proceso de desarrollo como tal (hacer código en un determinado lenguaje) y el desplegar el software en una infraestructura para usarlo, probarlo, mejorarlo, etc.
-
-La propuesta de DevOps está ligada a los procesos, es decir a las diferentes actividades que debe realizar una organización desde que se genera código fuente, hasta que este código fuente llega a los usuarios finales (internos o externos).
-
-Otras metodologías más formales de apoyo, complemento, soporte son: Agile, Lean, Kanban, etc. El objetivo principal en de todas ellas es finalmente hacer las cosas de manera eficiente, eficaz y con el menor error humano (por medio de la automatización).
-
-Una de las herramientas principales en las prácticas de DevOps es formalizar todo lo que se puede: código fuente, estado de las máquinas, configuraciones, librerías, etc. en un repositorio de código.
-
-Algunas aplicaciones desarrolladas para ambiente de nube (Cloud Native Apps) llevan incluso este proceso a considerar que cada proyecto debe tener su repositorio propio y único donde se centraliza toda la información del mismo. La organización entonces tiene varios repositorios de código fuente desde donde se obtiene, compila(si es pertinente), configura el ambiente y despliega para su uso.
 
 ## Git
 
@@ -79,6 +67,6 @@ Utilizando el criterio de Flujo de trabajo, realizar las actividades del [Ejerci
 
 * [Anotaciones de comandos](Anotaciones.md)
 
-## Otros
+### Otros
 
 * [Curso Cloud Native Foundamentals](https://www.udacity.com/course/cloud-native-fundamentals--ud064)
