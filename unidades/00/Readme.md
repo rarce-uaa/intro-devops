@@ -13,9 +13,15 @@
 
 ## Ciclo de vida del software
 
-El Ciclo de vida de desarrollo de sistemas comprende procesos, análisis y actividades que tienen que 
+El Ciclo de vida de desarrollo de sistemas comprende procesos, análisis y actividades del desarrollo de una solución de software desde la concepción de la idea, hasta la puesta en producción donde los usuarios acceden finalmente al software. Adicionalmente este software se contempla que deberá ser mantenido en el tiempo con actualizaciones, mejoras, etc.
 
 ![Ciclo de vida](https://www.viewnext.com//wp-content/uploads/2018/06/7fases_SDLC_infografia.jpg)
+
+Este gráfico aunque representativo de los procesos da la impresión de ser finito, es decir, que en algun momento el software deja de ser atendido.
+
+Esta es la realidad para muchas soluciones de software, pero si la plataforma es lo suficientemente flexible, nada impide que pudiera seguir por decadas en el mismo proceso.
+
+Como referencia, hay software en los mercados de valores, la banca e incluso la industria aeronautica que tiene mas de 40 años, y aun se mantiene, aunque imagino que no tan regularmente como antes.
 
 ## Que es DevOps?
 
@@ -35,14 +41,41 @@ Esto lo ahondaremos en la [Unidad 1](../01/)
 
 ## Arquitectura de software
 
-- Monolitico, Microservicios
-- Backend, Frontend, Mobile, Desktop, Full-Stack
+> En el comienzo el arquitecto creo el software, y todo estaba en un solo lugar, y vio que esto era bueno
+
+Se dice que un sistema o solución de software monolítico es aquel donde la capa de interfaz de usuario, la logica de negocios e incluso la capa de acceso a los datos están combinadas en un mismo programa.[1](https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_monol%C3%ADtica "Wikipedia")
+
+Dado que los sistemas monolíticos son muy dificiles de mantener, la tendencia es desarrollar algo modular.
+
+La tendencia actual en el procesos de desarrollo es descomponer el problema mas grande (sistema) en problemas mas pequeños (pequeños módulos). Eso indica que el mantenimiento se realiza de manera modular también sin afectar al sistema como un todo. 
+
+Los microservicios son las expresión de esta tendencia. Es software que realiza una tarea muy particular, granular y contenida, normalmente son API. La interfaz de usuario consumen estos microservicios.
+
+Como cada microservicio es una software autónomo, las actualizaciones o mantinimiento del mismo no afecta el funcionamiento de los demás componentes del sistema.
+
+![Microservicios](https://miro.medium.com/max/724/1*1y2jFl5j58kDBpV5bzqCbQ.png)
+
+*Tanto el software monolítico como el modular pueden ser desarrollados usando las prácticas de DevOps* 
 
 ## Patrones de despliegue
 
-- Staging (Blue-Green)
-- Operaciones tiene su propio tiempo
-- Ni hablemos de cambios en las Bases de Datos
+Cuando el software está listo para ser desplegado, un ambiente "de producción" se prepara. En ese ambiente se instalan todos los componentes que requiere el software para funcionar. El equipo de operaciones es el encargado de preparar ese ambiente.
+
+Ese ambiente, cuando está listo, y en uso, rara vez se toca. Citando el famoso adagio del administrador de sistemas:
+
+> Si funciona, no lo toques.
+
+Realmente si se realizan cambios a este ambiente o al menos en teoría debería ser asi: actualizaciones de sistema operativo, librerías, motor de bases de datos, etc.
+
+Este concepto lo diferencio de los cambios del software propiamente dicho. Sino de la plataforma subyacente en la que se ejecuta el software
+ 
+Es una buena práctica, aunque no tan común, manejar un ambiente de pre-producción (**Staging**), que es un ambiente idéntico al de producción y se utiliza para desplegar cambios en el software como tal.
+
+Esta buena practica se le dice despliegue azul-verde (**blue-green deployment**)
+
+![Blue Green Deployment](https://cdn2.hubspot.net/hubfs/5416872/thumbnail.jpg)
+
+Estos ambientes, producción y staging, se intercambian regularmente.
 
 ## Referencias
 
