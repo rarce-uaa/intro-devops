@@ -77,6 +77,22 @@ Esta buena practica se le dice despliegue azul-verde (**blue-green deployment**)
 
 Estos ambientes, producción y staging, se intercambian regularmente.
 
+### Las 3 capas
+
+Una aplicación de microservicio normalmente (no siempre) estaría compuesto de 3 (tres) capas:
+
+- Presentación
+- Aplicación
+- Base de datos
+
+Es muy común que las organizaciones usen el mismo motor de bases de datos, aunque usen "sets de datos"(tablas,columnas) particulares de los datos para cada microservicio.
+
+### Las bases de datos tienen un tratamiento particular
+
+Realizar cambios a la base de datos es un tema muy particular que sale del alcance de este curso, requiere de un curso aparte.
+
+Hay herramientas que permiten la migración del esquema, los cambios e incluso volver atrás a los cambios (roll-back) sin afectar los conjuntos de datos e información ya presente.
+
 ## Referencias
 
 ### Enlaces
