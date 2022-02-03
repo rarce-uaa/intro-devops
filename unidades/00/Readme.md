@@ -29,6 +29,10 @@ Como referencia, hay software en los mercados de valores, la banca e incluso la 
 
 La propuesta de DevOps está ligada a los procesos, es decir a las diferentes actividades que debe realizar una organización desde que se genera código fuente, hasta que este código fuente llega a los usuarios finales (internos o externos).
 
+Es un enfoque de diseño de la plataforma, la automatización y la cultura que apunta a proporcionar un mejor valor comercial y receptividad.
+
+Su objetivo principal: aumentar la velocidad y flexibilidad en la entrega de nuevas funciones y servicios
+
 ![Ciclo en DevOps y herramientas](https://i1.wp.com/geniusitt.com/wp-content/uploads/2018/08/DevOpstools-1.png)
 
 Otras metodologías más formales de apoyo, complemento, soporte son: Agile, Lean, Kanban, etc. El objetivo principal en de todas ellas es finalmente hacer las cosas de manera eficiente, eficaz y sumado a esto: con el menor error humano (por medio de la automatización).
